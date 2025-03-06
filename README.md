@@ -118,3 +118,188 @@ There are **7 major steps** in the standard Machine Learning workflow, as listed
 - In practice, the process is iterative—steps like evaluation might lead back to data collection or model retraining.
 
 ---
+
+
+
+
+[Machine Learning]
+   ├── [Supervised Learning]
+   │    ├── [Classification]
+   │    │    ├── Logistic Regression
+   │    │    ├── Support Vector Machines
+   │    │    ├── Discriminant Analysis
+   │    │    ├── Naive Bayes
+   │    │    ├── Nearest Neighbor
+   │    │    ├── Decision Trees
+   │    │    ├── Random Forests
+   │    │    ├── Gradient Boosting (XGBoost, LightGBM)
+   │    │    └── Neural Networks
+   │    └── [Regression]
+   │         ├── Linear Regression
+   │         ├── Ridge
+   │         ├── Lasso
+   │         ├── Elastic Net
+   │         ├── GLM
+   │         ├── SVR
+   │         ├── GPR
+   │         ├── Polynomial Regression
+   │         ├── Ensemble Methods
+   │         ├── Decision Trees
+   │         └── Neural Networks
+   ├── [Unsupervised Learning]
+   │    ├── [Clustering]
+   │    │    ├── K-Means
+   │    │    ├── K-Medoids
+   │    │    ├── Fuzzy C-Means
+   │    │    ├── Hierarchical
+   │    │    ├── Gaussian Mixture
+   │    │    ├── DBSCAN
+   │    │    ├── Neural Networks
+   │    │    └── Hidden Markov Model
+   │    ├── [Dimensionality Reduction]
+   │    │    ├── PCA
+   │    │    ├── t-SNE
+   │    │    ├── UMAP
+   │    │    └── Autoencoders
+   │    ├── [Association Rule Learning]
+   │    │    ├── Apriori
+   │    │    └── FP-Growth
+   │    └── [Anomaly Detection]
+   │         ├── Isolation Forests
+   │         └── One-Class SVM
+   ├── [Reinforcement Learning]
+   │    ├── Q-Learning
+   │    ├── Deep Q-Networks
+   │    ├── Policy Gradient Methods
+   │    └── Actor-Critic Methods
+   ├── [Semi-Supervised Learning]
+   │    ├── Self-Training
+   │    ├── Co-Training
+   │    └── Graph-Based Methods
+   └── [Deep Learning]
+        ├── CNNs (Conv Layers, Pooling, Fully Connected Layers)
+        ├── RNNs/LSTMs (Time Series, NLP)
+        ├── GANs (Generative Tasks)
+        └── Transformers (BERT, Vision Transformers)
+
+
+
+
+[Model Evaluation Metrics]
+   ├── [Classification]
+   │    ├── Accuracy
+   │    ├── Precision
+   │    ├── Recall
+   │    ├── F1-Score
+   │    ├── ROC-AUC
+   │    └── Confusion Matrix
+   ├── [Regression]
+   │    ├── Mean Squared Error (MSE)
+   │    ├── Mean Absolute Error (MAE)
+   │    ├── R² Score
+   │    └── Root Mean Squared Error (RMSE)
+   ├── [Clustering]
+   │    ├── Silhouette Score
+   │    ├── Davies-Bouldin Index
+   │    └── Adjusted Rand Index
+   └── [Reinforcement Learning]
+        ├── Cumulative Reward
+        └── Convergence Rate
+
+
+
+[Deep Learning Architectures]
+   ├── [CNNs]
+   │    └── For image data (Conv Layers, Pooling, Fully Connected Layers)
+   ├── [RNNs/LSTMs]
+   │    └── For sequential data (Time Series, NLP)
+   ├── [GANs]
+   │    └── For generative tasks
+   └── [Transformers]
+        └── For NLP and vision tasks (BERT, Vision Transformers)
+
+
+
+[Data Collection] --> [Data Preprocessing (Cleaning, Normalization)] --> [Feature Engineering] --> [Model Selection] --> [Training] --> [Evaluation] --> [Hyperparameter Tuning] --> [Deployment] --> [Monitoring]
+
+
+[Machine Learning Algorithms by Application]
+   ├── [Natural Language Processing (NLP)]
+   │    ├── Naive Bayes (Text Classification)
+   │    ├── LSTM/RNNs (Sequence Modeling)
+   │    ├── Transformers (BERT, GPT)
+   │    └── Word Embeddings (Word2Vec, GloVe)
+   ├── [Computer Vision]
+   │    ├── CNNs (Image Classification, Object Detection)
+   │    ├── Autoencoders (Image Denoising)
+   │    └── GANs (Image Generation)
+   ├── [Time Series Analysis]
+   │    ├── ARIMA (Statistical Forecasting)
+   │    ├── LSTM/RNNs (Sequence Prediction)
+   │    └── Prophet (Anomaly Detection)
+   ├── [Recommendation Systems]
+   │    ├── Collaborative Filtering
+   │    ├── Matrix Factorization
+   │    └── Deep Learning (Neural Collaborative Filtering)
+   └── [Fraud Detection/Anomaly Detection]
+        ├── Isolation Forests
+        ├── One-Class SVM
+        └── Autoencoders
+
+
+[Model Complexity vs. Error]
+   ├── [Training Error] (Decreases with Complexity)
+   │    ├── Underfitting (High Error, Simple Model)
+   │    └── Optimal Fit (Low Error, Balanced Model)
+   ├── [Validation Error] (U-Shaped Curve)
+   │    ├── Underfitting (High Error, Simple Model)
+   │    ├── Optimal Fit (Low Error, Balanced Model)
+   │    └── Overfitting (High Error, Complex Model)
+   └── [Key Insight]
+        ├── Underfitting: Model too simple, misses patterns
+        ├── Optimal Fit: Balances bias and variance
+        └── Overfitting: Model too complex, memorizes noise
+
+
+[Feature Engineering Techniques]
+   ├── [Data Cleaning]
+   │    ├── Handling Missing Values (Imputation, Removal)
+   │    └── Outlier Detection (Z-Score, IQR)
+   ├── [Feature Transformation]
+   │    ├── Normalization (Min-Max Scaling)
+   │    ├── Standardization (Z-Score Scaling)
+   │    └── Encoding (One-Hot Encoding, Label Encoding)
+   ├── [Feature Creation]
+   │    ├── Polynomial Features
+   │    ├── Interaction Terms
+   │    └── Domain-Specific Features
+   └── [Feature Selection]
+        ├── Filter Methods (Correlation, Chi-Square)
+        ├── Wrapper Methods (Forward Selection, Backward Elimination)
+        └── Embedded Methods (Lasso, Ridge)
+
+[Hyperparameter Tuning Methods]
+   ├── [Grid Search]
+   │    └── Exhaustive search over predefined parameter grid
+   ├── [Random Search]
+   │    └── Random sampling from parameter space
+   ├── [Bayesian Optimization]
+   │    └── Probabilistic model (e.g., Gaussian Processes)
+   ├── [Genetic Algorithms]
+   │    └── Evolutionary search (Mutation, Crossover)
+   └── [Gradient-Based Optimization]
+        └── Uses gradients to adjust hyperparameters (e.g., in Neural Networks)
+
+
+[Bias-Variance Tradeoff]
+   ├── [Bias] (Error from wrong assumptions)
+   │    ├── High Bias: Underfitting (Simple Model)
+   │    └── Low Bias: Complex Model
+   ├── [Variance] (Error from sensitivity to data)
+   │    ├── High Variance: Overfitting (Complex Model)
+   │    └── Low Variance: Simple Model
+   └── [Total Error] (Bias² + Variance + Irreducible Error)
+        ├── Optimal Model: Minimizes Total Error
+
+
+
