@@ -23,6 +23,8 @@ Here’s a clear and concise explanation of **Supervised Learning**, **Unsupervi
 ### 3. Reinforcement Learning
 **Definition**: Reinforcement Learning is a type of machine learning where an agent learns to make decisions by interacting with an environment. The agent receives feedback in the form of rewards or penalties based on its actions and aims to maximize the cumulative reward over time.
 
+---
+
 - **Examples**: Training a robot to navigate a maze, or teaching an AI to play chess by rewarding winning moves.
 - **Key Characteristics**: Trial-and-error learning, no predefined dataset, relies on a reward signal.
 - 
@@ -32,11 +34,15 @@ Semi-Supervised Learning is a hybrid approach that combines elements of supervis
 - **Examples**: Labeling a few images in a dataset and using the rest of the unlabeled images to refine a classifier.
 - **Key Characteristics**: Useful when labeling data is expensive or time-consuming.
 
+---
+
 #### 5. Deep Learning
 Deep Learning is a subset of machine learning that uses neural networks with many layers (hence "deep") to model complex patterns in data. It excels at tasks involving large datasets and high-dimensional inputs like images, audio, and text.
 
 - **Examples**: Image recognition (e.g., identifying cats in photos), natural language processing (e.g., chatbots like me!).
 - **Key Characteristics**: Requires significant computational power and data, inspired by the human brain’s structure.
+
+---
 
 #### 6. Transfer Learning
 Transfer Learning is a technique where a model trained on one task is reused or fine-tuned for a different but related task. It’s especially useful when the target dataset is small.
@@ -44,11 +50,15 @@ Transfer Learning is a technique where a model trained on one task is reused or 
 - **Examples**: Using a pre-trained image recognition model (e.g., on ImageNet) and adapting it to classify medical X-rays.
 - **Key Characteristics**: Saves time and data, leverages knowledge from large, general datasets.
 
+---
+
 #### 7. Feature Engineering
 Feature Engineering is the process of selecting, creating, or transforming raw data into features (input variables) that improve a machine learning model’s performance.
 
 - **Examples**: Converting text into numerical word embeddings or normalizing data to a 0-1 scale.
 - **Key Characteristics**: Manual or automated, critical for traditional ML models (less so for deep learning).
+
+---
 
 #### 8. Overfitting and Underfitting
 - **Overfitting**: When a model learns the training data too well, including noise and outliers, and fails to generalize to new data.
