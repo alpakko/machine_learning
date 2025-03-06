@@ -1,7 +1,5 @@
 # machine_learning
 
-Here’s a clear and concise explanation of **Supervised Learning**, **Unsupervised Learning**, **Reinforcement Learning**, and a few other key components of Machine Learning (ML) that are worth mentioning:
-
 ---
 
 ### 1. Supervised Learning
